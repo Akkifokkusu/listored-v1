@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^example.com$ [NC]
+RewriteRule ^(.*)$ http://www.example.com/$1 [R=301,L]
+#RewriteBase /
+RewriteRule \.(gif�jpg�png)$ - [NC,L]
+RewriteRule ^list+/?$ index.php [R]
+RewriteRule ^list/([^/\.]+)/?$ index.php?list=$1 [L]

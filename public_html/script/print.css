@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+
+.imagebutton {
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.legendimage {
+	margin-right: 5px;
+}
+
+.legendspan {
+	margin-right: 10px;
+}
+
+.legendright {
+	position: absolute;
+	left: 145px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #0000EE;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.ideabuttons {
+	display: none;
+}
+
+.printbox {
+	display: inline;
+}
+
+#newitem {
+	display: none;
+}
+
+#listadd {
+	display: none;
+}
+
+#listmenu {
+	display: none;
+}
+
+#list {
+	display: none;
+}
+
+#logoutlink {
+	display: none;
+}
+
+#legend {
+	display: none;
+}

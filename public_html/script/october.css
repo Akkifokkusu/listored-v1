@@ -1,0 +1,11 @@
+#floatingmenu {
+	background-color: hotpink !important;
+}
+
+#pinkribbon {
+	height: 31px;
+	bottom: -4px;
+	position: relative;
+	margin-right: -4px;
+	border-style: none;
+}

@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	width: auto;
+}
+
+#content {
+	width: auto;
+	height: auto;
+	min-height: auto;
+}
+
+.textbox {
+	width: 90%;
+	min-width: 0;
+}
+
+#mobilead {
+	display: block;
+}
+
+#adcontainer {
+	display: none;
+}

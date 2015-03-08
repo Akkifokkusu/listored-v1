@@ -1,0 +1,218 @@
+@CHARSET "ISO-8859-1";
+
+.itembox {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: table;
+	position: relative;
+	width: 100px;
+}
+
+.color0 {
+	border: 2px solid limegreen;
+	border-radius: 5px;
+	background-color: aquamarine;
+	min-width: 0;
+}
+
+.color1 {
+	border: 2px solid blue;
+	border-radius: 5px;
+	background-color: cyan;
+	min-width: 0;
+}
+
+.color2 {
+	border: 2px solid mediumorchid;
+	border-radius: 5px;
+	background-color: fuchsia;
+	min-width: 0;
+	color: white;
+}
+
+.color3 {
+	border: 2px solid darkorange;
+	border-radius: 5px;
+	background-color: orange;
+	min-width: 0;
+}
+
+.color4 {
+	border: 2px solid deeppink;
+	border-radius: 5px;
+	background-color: hotpink;
+	min-width: 0;
+}
+
+.checked {
+	opacity: 0.5;
+}
+
+.parent {
+	background-image: -moz-repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255,255,255,.5) 5px, rgba(255,255,255,.5) 10px);
+	background-image: -webkit-repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255,255,255,.5) 5px, rgba(255,255,255,.5) 10px);
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255,255,255,.5) 5px, rgba(255,255,255,.5) 10px);
+}
+
+.childlist {
+	display: none;
+}
+
+.corner {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+.del {
+	display: none;
+	background-image: url(../res/del.png);
+	top: 0px;
+	left: 0px;
+}
+
+.edt {
+	display: none;
+    background-image: url(../res/edt.png);
+    top: 0px;
+    right: 0px;
+}
+
+.noedt {
+	display: none;
+    background-image: url(../res/noedt.png);
+    top: 0px;
+    right: 0px;
+}
+
+.chk {
+	display: none;
+    background-image: url(../res/chk.png);
+    bottom: 0px;
+    left: 0px;
+}
+
+.add {
+    background-image: url(../res/add.png);
+    bottom: 0px;
+    right: 0px;
+}
+
+.cancel {
+    background-image: url(../res/cancel.png);
+    bottom: 0px;
+    right: 0px;
+    display: none;
+}
+
+.itembox input[type="text"] {
+	border: 2px dashed white;
+	background-color: transparent;
+}
+
+.editbox {
+	display: none;
+	border: 2px dashed white;
+	background-color: transparent;
+	padding: 0;
+	resize: none;
+	min-height: 20px;
+}
+
+div.color2 input[type="text"] {
+	color: white;
+}
+
+div.color2 .editbox {
+	color: white;
+}
+
+#listored > ul {
+	padding-left: 0;
+}
+
+#status {
+	color: red;
+}
+
+body {
+	width: 800px;
+}
+
+.imagebutton {
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.legendimage {
+	margin-right: 5px;
+}
+
+.legendspan {
+	margin-right: 10px;
+}
+
+.legendright {
+	position: absolute;
+	left: 145px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #0000EE;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.printbox {
+	display: none;
+}
+
+h1 {
+	font-family: 'Contrail One';
+}
+
+div {
+	font-family: 'Mako';
+}
+
+span {
+	font-family: 'Mako';
+}
+
+p {
+	font-family: 'Mako';
+}
+
+input, textarea {
+	font-family: 'Mako';
+	font-size: 16px;
+}
+
+select {
+	font-family: 'Mako';
+	font-size: 16px;
+}
+
+#topmenuitems a {
+	color: white;
+	text-decoration: none;
+}
+
+#content {
+	position: absolute;
+	width: 790px;
+	height: 100%;
+	min-height: 242px;
+}
+
+#mobilead {
+	display: none;
+}
